@@ -1,0 +1,137 @@
+.row {
+    width: 980px;
+    margin: 0 auto;
+}
+
+.header1 {
+    width: 99vw;
+    height: 60px;
+    background-color: #252323;
+}
+
+.header1 .logo {
+    float: left;
+    line-height: 60px;
+}
+
+.header1 .social-menu {
+    float: right;
+    line-height: 60px;
+}
+
+.header1 ul li {
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.header1 ul li.-last {
+    margin-right: 10px;
+}
+
+.header2 {
+    width: 99vw;
+    height: 84px;
+    background-color: #ffffff;
+    border-bottom: 3px solid #efefef;
+}
+
+.header2 .main-menu {
+    float: left;
+}
+
+.header2 .main-menu .item {
+    line-height: 82px;
+    display: inline-block;
+    margin-left: 35px;
+}
+
+.header2 .item:first-child {
+    margin-left: 0;
+}
+
+.header2 .item a {
+    text-decoration: none;
+    font-family: tahoma, sans-serif;
+    font-size: 14pt;
+    color: #949494;
+    text-transform: uppercase;
+}
+
+.header2 .item:hover {
+    border-bottom: 2px solid #00bac6;
+}
+
+.header2 .item a:hover {
+    color: #00bac6;
+}
+
+.header2 .search {
+    line-height: 82px;
+    float: right;
+}
+
+.header2 input {
+    width: 190px;
+    height: 32px;
+    padding-left: 14px; 
+    background-image: url("../img/lupa.png");
+    background-repeat: no-repeat;
+    background-position: 95%;
+}
+
+.header3, .header3 img {
+    width: 99vw;
+}
+
+.header3 button.slick-prev, button.slick-next {
+    font-size: 0;
+    border: none;
+    width: 25px;
+    height: 51px;
+    background-color: transparent;
+    cursor: pointer;
+    position: absolute;
+    top: 33%;
+    z-index: 9;
+}
+
+.header3 button.slick-prev {
+    background-image: url("../img/previous.png");
+    left: 14%;
+}
+
+.header3 button.slick-next {
+    background-image: url("../img/next.png");
+    right: 14%;
+}
+
+.header3 .slick-dots {
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.header3 .slick-dots li {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.header3 .slick-dots li:first-child {
+    margin-left: 0;
+}
+
+.header3 .slick-dots li button {
+    font-size: 0px;
+    border: 5px solid #ffffff;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.header3 .slick-dots li.slick-active button {
+    background-color: #00bac6;
+    cursor: pointer;
+}

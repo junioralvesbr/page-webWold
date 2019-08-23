@@ -1,0 +1,75 @@
+.jobs {
+    position: relative;
+    width: 980px;
+    height: 545px;
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+    color: #7b7b7b;
+}
+
+.jobs > .title {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 25px;
+    margin: 57px 0 30px;
+}
+
+.jobs strong {
+    font-weight: 700;
+    color: #504f4f;
+}
+
+.jobs > .text {
+    box-sizing: border-box;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.jobs > .iconJobs {
+    position: relative;
+}
+
+.jobs > .iconJobs > article {
+    position: absolute;
+    width: 300px;
+    height: 210px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.jobs > .iconJobs > article p {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+}
+
+.jobs > .iconJobs > .imac {
+    position: absolute;
+    left: 0;
+    margin-top: 50px;
+}
+
+.jobs > .iconJobs > .pencilPaper {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 84px;
+}
+
+.jobs > .iconJobs > .photo {
+    position: absolute;
+    right: 0;
+    margin-top: 50px;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border: 52px solid;
+    border-color: transparent transparent #eeeeee transparent;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+  }

@@ -1,0 +1,9 @@
+.custumer > .custumer-row {
+    width: 980px;
+    height: 176px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
